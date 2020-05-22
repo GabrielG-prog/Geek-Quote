@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp">
+
+    <EditText
+        android:id="@+id/et_quote_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="edit quote" />
+
+    <TextView
+        android:id="@+id/tv_quote_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QuoteView" />
+    <TextView
+        android:id="@+id/tv_quote_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date" />
+
+    <RatingBar
+        android:id="@+id/rt_quote_rating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bt_quote_view_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ok" />
+
+    <Button
+        android:id="@+id/bt_quote_view_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel" />
+
+</LinearLayout>

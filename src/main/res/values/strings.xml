@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">GeekQuote</string>
+
+    <string-array name="quoteArray">
+        <item>Première citation, 10</item>
+        <item>Deuxieme citation, 10</item>
+        <item>Troisieme citation, 10</item>
+    </string-array>
+
+    <string name="type_quote">Quote</string>
+
+</resources>
